@@ -9,9 +9,8 @@ header {
     justify-content: space-between;
     width: 100%;
     height: 140px;
-    border: 2px solid black;
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     background-color: rgb(135, 116, 116);
 }
 
@@ -48,9 +47,20 @@ nav a {
     font-size: 20px;
     color: black;
     text-shadow: 1px 1px orange;
+    transition: .3s;
 }
 
-nav a:hover{
-    transform: scale(1.5s);
+nav a:hover {
     color: whitesmoke;
+    transform: scale(1.2);    
 }
+
+.hero {
+    width: 100%;
+    height: 300px;
+    background: url(../images/hero.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
